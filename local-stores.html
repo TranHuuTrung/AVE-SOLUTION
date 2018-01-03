@@ -1,0 +1,346 @@
+<!-- include "includes/header.php"?> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LOCAL-STORES</title>
+    <link rel="stylesheet" href="style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/css/styles-header.css">
+    <link rel="stylesheet" href="style/css/styles-brand.css">
+    <link rel="stylesheet" href="style/css/styles-home.css">
+    <link rel="stylesheet" href="style/css/styles-local-stores.css">
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&language=vi"></script>
+</head>
+<body onLoad="initialize()">
+     <div class="container-fluid">
+        <div class="header">
+            <div class="topbar">
+                <div class="row width-1180 center">
+                    <div class="col-md-3"><a href="#"> Currency : GBP<span class="caret"></span> </a></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-2"><a href="#">Register</a></div>
+                    <div class="col-md-2"><a href="#">Sign In</a></div>
+                    <div class="col-md-2 sign-in">
+                        <a class="a-last" href="#"><img src="images/home/add-to-cart.png" alt="">empty<span class="caret"></span></a>
+                    </div>
+                </div>
+            </div><!-- end topbar -->
+            <div class="above-top-bar">
+                <div class="logo">
+                   <a href="./index.html"><img class="logo float-left" src="images/home/logo.png" alt="logo"></a>
+                </div>
+                <ul class="nav width-1180 center float-left">
+                   <li class="nav-item float-right">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LOOK BOOK<br> <span class="caret"></span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <div class="dropdown-item">
+                                <div class="casuals box-item float-left">
+                                    <h3>CASUALS </h3>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                        <li><a href="#">Polo Shirts</a></li>
+                                        <li><a href="#">Sportswear</a></li>
+                                        <li><a href="#">Trousers & Chinos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="formal box-item float-left">
+                                    <h3>FORMAL</h3>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Suits</a></li>
+                                        <li><a href="#">Trousers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="banner clearfix">
+                                    <a href="#">
+                                        <div class="sale">
+                                                <p>AUTUMN SALE!</p>
+                                                <p>UP TO 50% OFF</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item float-right">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LOCAL STORES<br><span class="caret"></span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <div class="dropdown-item">
+                                <div class="casuals box-item float-left">
+                                    <h3>CASUALS</h3>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                        <li><a href="#">Polo Shirts</a></li>
+                                        <li><a href="#">Sportswear</a></li>
+                                        <li><a href="#">Trousers & Chinos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="formal box-item float-left">
+                                    <h3>FORMAL</h3>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Suits</a></li>
+                                        <li><a href="#">Trousers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="banner clearfix">
+                                    <a href="#">
+                                        <div class="sale">
+                                                <p>AUTUMN SALE!</p>
+                                                <p>UP TO 50% OFF</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item float-right">
+                        <a class="nav-link" href="./thebrand.html">THE BRAND<br><span class="caret"></span></a>
+                    </li>
+                    <li class="nav-item float-right">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WOMEN'S<br><span class="caret"></span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <div class="dropdown-item">
+                                <div class="casuals box-item float-left">
+                                    <h3>CASUALS</h3>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                        <li><a href="#">Polo Shirts</a></li>
+                                        <li><a href="#">Sportswear</a></li>
+                                        <li><a href="#">Trousers & Chinos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="formal box-item float-left">
+                                    <h3>FORMAL</h3>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Suits</a></li>
+                                        <li><a href="#">Trousers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="banner clearfix">
+                                    <a href="#">
+                                        <div class="sale">
+                                                <p>AUTUMN SALE!</p>
+                                                <p>UP TO 50% OFF</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>               
+                    </li>
+                    <li class="nav-item float-right">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MEN'S <br><span class="caret"></span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <div class="dropdown-item">
+                                <div class="casuals box-item float-left">
+                                    <h3>CASUALS</h3>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                        <li><a href="#">Polo Shirts</a></li>
+                                        <li><a href="#">Sportswear</a></li>
+                                        <li><a href="#">Trousers & Chinos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="formal box-item float-left">
+                                    <h3>FORMAL</h3>
+                                    <ul>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Suits</a></li>
+                                        <li><a href="#">Trousers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="banner clearfix">
+                                    <a href="#">
+                                        <div class="sale">
+                                                <p>AUTUMN SALE!</p>
+                                                <p>UP TO 50% OFF</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>      
+                    </li>
+                </ul>
+                <div class="search float-left">
+                   <input type="text" id="info-search" placeholder="Search...">
+                   <a href="#"><img src="images/home/icon-search.png" alt="search"></a>
+                </div>
+            </div> <!--  end above topbar --> 
+   <!--  header from includes/header.php  -->
+
+   <!-- add photo main in header -->
+    <div class="photo-main">
+        <img style="width: 100%;" src="images/brand/photo-main.png" alt="photo-main">
+        <img style="width: 100%;" class="bg" src="images/brand/bg-header.png" alt="bg">
+        <img style="width: 100%;" class="ave-text" src="images/brand/brand-ave.png" alt="ave-brand">
+        <div class="text-brand">
+            <h2><strong>LOCAL </strong>STORES</h2>
+            <h4>FIND A STORE NEAR YOU</h4>
+        </div>
+    </div>
+</div> <!-- end header -->
+  
+<!-- content middle in local-stores pages -->
+<div class="content-local-stores">
+    <div class="locations width-1180 center">
+       <div class="location-item location-item1 float-left">
+            <div class="content-location">
+                <h3>LONDON</h3>
+                <h4>180-182 REGENT STREET, LONDON, W1B</h4>
+                <span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem.
+                Vestibulum ornare eleifendit massa, nec tempor odio.
+                Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.
+                </span>
+            </div>
+            <button class="view-location"><a href="#">VIEW DETAILS</a></button>
+       </div>
+       <div class="location-item location-item1 float-left">
+            <div class="content-location">
+                <h3>NEW YORK</h3>
+                <h4>109 COLUMBUS CIRCLE, NEW YORK, NY</h4>
+                <span>
+                Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. 
+                Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum dolor, 
+                non sollicitudin massa mi eu nibh.
+                Nullam vitae aliquam dui, non sodales nisl.
+                </span>
+            </div>
+            <button class="view-location "><a href="#">VIEW DETAILS</a></button>
+       </div>
+       <div class="location-item  float-left">
+            <div class="content-location">
+                <h3>PARIS</h3>
+                <h4>2133 RUE SAINT-HONORÉ, 75001 PARIS</h4>
+                <span>
+                Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend.
+                Curabitur laoreet nisl eget rutruml auctor. 
+                Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.
+                </span>
+            </div>
+            <button class="view-location "><a href="#">VIEW DETAILS</a></button>
+       </div>
+    </div><!-- end locations -->
+    <div class="location-details clearfix">
+        <div class="map float-left">
+            <iframe
+                width="100%"
+                height="450"
+                src="http://maps.google.co.uk/maps?f=q&amp;
+                source=s_q&amp;hl=en&amp;geocode=&amp;
+                q=charing+cross+road+london&amp;output=embed">
+            </iframe> 
+        </div><!-- end map -->
+        <div class="details-map float-left">
+            <h3>LONDON</h3>
+            <h4>180-182 REGENT STREET, LONDON, W1B</h4>
+            <span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem.
+            Vestibulum ornare eleifendit massa, nec tempor odio.
+            Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.
+            </span>
+        </div>
+    </div><!-- end location-details -->
+</div><!-- end content middle in local-stores pages -->
+
+
+<!-- insert footer part -->
+ <!-- include "includes/footer.php"?> -->
+<div class="footer clearfix">
+<div class="top-footer">
+    <div class="row width-1180 center">
+        <div class="infomation col-lg-2 item-footer">
+            <h3>INFORMATION</h3>
+            <ul>
+                <li>The brand</li>
+                <li>Local stores</li>
+                <li>Customer services</li>
+                <li>Privacy & cookies</li>
+                <li>Site map</li>
+            </ul>
+        </div>
+        <div class="whybuy col-lg-2 item-footer">
+            <h3>WHY BUY FROM US</h3>
+            <ul>
+                <li>Shipping and returns</li>
+                <li>Secure shopping</li>
+                <li>Testimonials</li>
+                <li>Award winning</li>
+                <li>Ethical trading</li>
+            </ul>
+        </div>
+        <div class="account col-lg-3 item-footer">
+            <h3>YOUR ACCOUNT</h3>
+            <ul>
+                <li>Sign in</li>
+                <li>Register</li>
+                <li>View cart</li>
+                <li>View your lookbook</li>
+                <li>Track an order</li>
+                <li>Update information</li>
+            </ul>
+        </div>
+        <div class="lockblock col-lg-2 item-footer">
+            <h3>LOOKBOOK</h3>
+            <ul>
+                <li>Latest posts</li>
+                <li>Men’s lookbook</li>
+                <li>Women’s lookbook</li>
+                <li>Lookbooks RSS feed</li>
+                <li>View your lookbook</li>
+                <li>Delete your lookbook</li>
+            </ul>
+        </div>
+        <div class="contact col-lg-3 item-footer">
+            <h3>CONTACT DETAILS</h3>
+            <ul>
+                <li>Head Office: Avenue Fashion,<br> 180-182 Regent Street, London.</li>
+                <li>Telephone: 0123-456-789</li>
+                <li>Email: support@yourwebsite.com</li>
+            </ul>
+        </div>      
+    </div>
+    <div class="row banners width-1180 center">
+        <div class="banner-details col-lg-6  banner-details-1">
+                <h3>AWARD WINNER</h3>
+                <p>FASHION AWARDS 2016</p>
+        </div>
+        <div class="banner-details col-lg-6  banner-details-2 float-left">
+                <img src="images/home/social-icon-footer.png" alt="social-footer">
+        </div>
+    </div>
+</div><!--  end top-footer -->
+<div class="copyright">
+    <div class="row width-1180 center align-items-center">
+        <div class="col-lg-3"><p>© 2016 Avenue Fashion™</p></div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4"><p>Design by RobbyDesigns.com</p></div>
+        <div class="col-lg-3"><p>Dev by Loremipsum.com</p></div> 
+    </div>
+</div><!--  end copyright -->
+</div><!--  end footer -->
+
+</div><!--  end container-fluid -->
+<!-- Jquery bootstrap template depend on it -->
+<script src="style/js/jquery-3.2.1.min.js"></script>
+<script src="style/js/bootstrap.min.js"></script>
+<script src="style/js/script.js"></script>
+<script src="style/js/map.js"></script>
+</body>
+</html>
