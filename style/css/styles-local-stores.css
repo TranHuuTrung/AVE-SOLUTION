@@ -1,0 +1,64 @@
+/* styles for local-stores pages */
+.locations{
+    margin-top: 50px;
+}
+.location-item1{
+    margin-right: 14px;
+}
+.location-item{
+    width: 260px;
+}
+.content-location {
+    height: 230px;
+}
+.text-align-center{
+    text-align: center;
+}
+/* styles button */
+
+.view-location{
+    display: block;
+    width: 135px;
+    height: 40px;
+    background: #f8f8f8;
+    border: 2px solid #737373;
+    margin-bottom: 40px;
+}
+.view-location a{
+    color: #454647;
+    font-size: 16 px;
+}
+
+.view-location:hover a{
+    color: #ffffff;
+}
+.view-location:hover{
+    background: #00c8c8;
+    border: 2px solid #00c8c8;
+}
+.content-local-stores span {
+    color: #8e8c8c;
+}
+.content-local-stores h4 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #727272;
+}
+.content-local-stores h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #575153;
+}
+
+/* styles location details */
+.map{
+    width: 60%;
+    height: 450px;
+}
+.details-map{
+    width: 40%;
+    height: 450px;
+    padding: 40px 20px;
+    background: #f8f8f8;
+    margin-bottom: 50px;
+}

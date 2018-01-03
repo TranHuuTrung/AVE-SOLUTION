@@ -1,0 +1,88 @@
+
+.photo-main{
+    position: relative;
+    z-index: 99;
+    margin-top: 90px;
+}
+.text-brand{
+    position: absolute;
+    top: 105px;
+    left: 465px;
+    color: #ffffff;
+    text-align: center;
+}
+.text-brand h4 {
+    font-size: 25px;
+}
+.text-brand h2 {
+    font-size: 36px;
+}
+.ave-text{
+    position: absolute;
+    top: 0px;
+    opacity: 0.3;
+}
+img.bg {
+    position: absolute;
+    top: 0px;
+    opacity: 0.5;
+}
+/* styles for content in the brand pages */
+.content-the-brand{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.content-details-the-brand{
+    width: 390px;
+}
+.img-intro{
+    width: 390px;
+    height: 290px;
+}
+.content-intro{
+    margin-left: 29px;
+}
+.content-the-brand p {
+    font-size: 14px;
+    color: #a8a7a7;
+}
+.content-the-brand h5 {
+    font-size: 14px;
+    color: #727272;
+}
+.content-the-brand h3 {
+    font-size: 20px;
+    margin-top: 35px;
+    color: #575153;
+}
+.ethical-trading img {
+    margin-left: 29px;
+    margin-top: 20px;
+    position: relative;
+}
+.content-ethical-trading {
+    position: absolute;
+    top: 985px;
+    right: 270px;
+}
+.our-values {
+    float: left;
+    position: absolute;
+    top: 805px;
+}
+.awards {
+    width: 390px;
+    float: left;
+    margin-top: 220px;
+    margin-left: 420px;
+    margin-bottom: 120px;
+}
+.img-awards{
+    width: 124px;
+    height: 80px;
+    margin-right: 5px;
+    margin-top: 40px;
+}
+img.img-awards.last-awards {
+    margin-right: 0px;
+}
