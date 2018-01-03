@@ -28,7 +28,7 @@
             </div><!-- end topbar -->
             <div class="above-top-bar">
                 <div class="logo">
-                   <img class="logo float-left" src="images/home/logo.png" alt="logo">
+                   <a href="./index.php"><img class="logo float-left" src="images/home/logo.png" alt="logo"></a>
                 </div>
                 <ul class="nav width-1180 center float-left">
                    <li class="nav-item float-right">

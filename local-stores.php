@@ -54,7 +54,7 @@
        </div>
     </div><!-- end locations -->
     <div class="location-details clearfix">
-        <div id="maps" class="map float-left">
+        <div class="map float-left">
             <iframe
                 width="100%"
                 height="450"

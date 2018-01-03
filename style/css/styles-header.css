@@ -202,7 +202,7 @@ h2,h3{
 
 }
 .top-footer{
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     color: #727272;
 }
 .top-footer h3{
@@ -213,7 +213,7 @@ h2,h3{
     text-align: left;
 }
 .item-footer li{
-    margin: 15px 0px;
+    margin: 10px 0px;
 }
 .item-footer:last-of-type{
     padding-right: 0px;
@@ -223,7 +223,7 @@ h2,h3{
 }
 /* banner in footer */
 .banners{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .banner-details{
     height: 170px;
