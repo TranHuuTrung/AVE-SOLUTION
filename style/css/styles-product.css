@@ -1,0 +1,59 @@
+/* styles for prduct pages */
+.brand-product{
+    left: 206px;
+}
+.brand-product h4 span{
+    color: #00c8c8;
+}
+.slider-product{
+    top: 0px;
+    width: 350px;
+    position: relative;
+}
+.pre{
+    position: absolute;
+    top: 190px;
+    left: 10px;
+}
+.pre:hover{
+    background: #00c8c8;
+    left: 0px;
+    padding: 5px 10px;
+}
+.next{
+    position: absolute;
+    top: 190px;
+    right: 10px;
+}
+.next:hover{
+    background: #00c8c8;
+    right: 0px;
+    padding: 5px 10px;
+}
+.review-content{
+    margin-left: 20px;
+}
+.review-content h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.review-content a{
+    color: #727272;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    border-right: 2px solid #989898;
+}
+.review-content li:first-of-type a{
+    padding-left: 0px;
+}
+.review-content li:last-of-type a{
+    border: none;
+}
+.review-content a:hover{
+    color: #00c8c8;
+}
+
+.review-content .img-last{
+    margin-right: 15px;
+}

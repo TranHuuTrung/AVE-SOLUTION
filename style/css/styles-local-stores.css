@@ -38,6 +38,7 @@
 }
 .content-local-stores span {
     color: #8e8c8c;
+    margin-bottom: 20px;
 }
 .content-local-stores h4 {
     font-size: 13px;
@@ -53,12 +54,37 @@
 /* styles location details */
 .map{
     width: 60%;
-    height: 450px;
+    height: 500px;
 }
 .details-map{
     width: 40%;
-    height: 450px;
+    height: 500px;
     padding: 40px 20px;
     background: #f8f8f8;
     margin-bottom: 50px;
+}
+.contact-details{
+    margin-top: 25px;
+}
+.icons{
+    margin-right: 15px;
+}
+.address-info li {
+    color: #8e8c8c;
+    margin-bottom: 12px;
+}
+.address-info ul {
+    margin-top: 25px;
+}
+.contact-us{
+    margin-top: 40px;
+}
+.contact-us li{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #575153;
+    text-align: center;
+    padding-top: 6px; 
 }

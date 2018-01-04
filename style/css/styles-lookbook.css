@@ -1,0 +1,117 @@
+/* styles for lookbook pages */
+.photo-lookbook{
+    margin-bottom: 50px;
+}
+.main-menu-lookbook {
+    margin-bottom: 25px;
+}
+.items-for-lookbook {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #eeeeee;
+}
+.row1{
+    height: 350px;
+}
+.col1 img{
+    width: 278px;
+    margin-right: 20px;
+}
+.col2 img{
+    width: 577px;
+}
+.last-col1 img{
+    margin-right: 0px;
+}
+.row2{
+    margin-bottom: 20px;
+}
+.col3 img{
+    width: 874px;
+    margin-right: 20px;
+}
+
+.text-ref{
+    font-size: 21px;
+    color: #9a9a9a;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}
+.col1 sup{
+    font-size: 12px;
+}
+.item-row-hover img{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    float: left;
+    border: 50%;
+}
+.item1-col1:hover .item-row-hover{
+    display: block;
+}
+.item-row-hover{
+    position: absolute;
+    top: 210px;
+    left: 95px;
+    display: none;
+}
+.col2,.col3{
+    position: relative;
+}
+.col2-detail{
+    width: 300px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    text-align: left;
+}
+.content-col2{
+    width: 200px;
+}
+.col2-detail h2{
+    font-size: 30px;
+    color: #575153;
+    text-transform: uppercase;
+}
+.col2-detail h4{
+    text-transform: uppercase;
+    padding: 5px 0px;
+    font-size: 13px;
+    color: #727272;
+    font-weight: bold;
+}
+.col2-detail p{
+    color: #8e8c8c;
+}
+.view-lookbook {
+    top: 251px;
+    left: 10px;
+    height: 40px;
+    width: 145px;
+}
+.col3-detail{
+    width: 350px;
+}
+.right-content-col3{
+    position: absolute;
+    top: 170px;
+    right: 30px;
+    text-align: right;
+}
+.right-content-col3 span,.right-content-col3 p{
+    text-transform: uppercase;
+    color: #00c8c8;
+    font-weight: bold;
+}
+.right-content-col3 span{
+    font-size: 130px;
+    line-height: 0px;
+    letter-spacing: 10px;
+}
+.right-content-col3 p{
+    font-size: 55px;
+    position: relative;
+    right: 15px;
+}

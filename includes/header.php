@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="style/css/styles-brand.css">
     <link rel="stylesheet" href="style/css/styles-home.css">
     <link rel="stylesheet" href="style/css/styles-local-stores.css">
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&language=vi"></script>
+    <link rel="stylesheet" href="style/css/styles-lookbook.css">
+    <link rel="stylesheet" href="style/css/styles-product.css">
 </head>
 <body onLoad="initialize()">
      <div class="container-fluid">

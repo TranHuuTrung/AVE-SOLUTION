@@ -1,12 +1,10 @@
-<!-- include "includes/header.php"?> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LOCAL-STORES</title>
+    <title>PRODUCT</title>
     <link rel="stylesheet" href="style/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/css/styles-header.css">
     <link rel="stylesheet" href="style/css/styles-brand.css">
@@ -183,182 +181,146 @@
                    <a href="#"><img src="images/home/icon-search.png" alt="search"></a>
                 </div>
             </div> <!--  end above topbar --> 
-   <!--  header from includes/header.php  -->
+        <!-- add photo main in header -->
+        <div class="photo-main photo-lookbook">
+                <img style="width: 100%;" src="images/brand/photo-main.png" alt="photo-main">
+                <img style="width: 100%;" class="bg" src="images/brand/bg-header.png" alt="bg">
+                <img style="width: 100%;" class="ave-text" src="images/brand/brand-ave.png" alt="ave-brand">
+                <div class="text-brand brand-product">
+                    <h2><strong>PRODUCT </strong>VIEW</h2>
+                    <h4>MENS - CASUALS - HOODIES & SWEATSHIRTS - <span>AVE CLASSIC SWEATSHIRTS </span></h4>
+                </div>
+            </div>
+</div><!--  end header --> 
 
-   <!-- add photo main in header -->
-    <div class="photo-main">
-        <img style="width: 100%;" src="images/brand/photo-main.png" alt="photo-main">
-        <img style="width: 100%;" class="bg" src="images/brand/bg-header.png" alt="bg">
-        <img style="width: 100%;" class="ave-text" src="images/brand/brand-ave.png" alt="ave-brand">
-        <div class="text-brand">
-            <h2><strong>LOCAL </strong>STORES</h2>
-            <h4>FIND A STORE NEAR YOU</h4>
+<div class="content-product width-1770 center">
+    <div id="carousel-simple" class="float-left carousel slide slider slider-product" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-simple" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-simple" data-slide-to="1"></li>
+            <li data-target="#carousel-simple" data-slide-to="2"></li>
+            <li data-target="#carousel-simple" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active"><img src="images/product/slider1.png" alt=""></div>
+            <div class="item"><img src="images/product/slider1.png" alt=""> </div>
+            <div class="item"><img src="images/product/slider1.png" alt=""></div>
+            <div class="item"><img src="images/product/slider1.png" alt=""></div>
         </div>
-    </div>
-</div> <!-- end header -->
-  
-<!-- main content  in local-stores pages -->
-<div class="content-local-stores">
-    <div class="locations width-1180 center">
-       <div class="location-item location-item1 float-left">
-            <div class="content-location">
-                <h3>LONDON</h3>
-                <h4>180-182 REGENT STREET, LONDON, W1B</h4>
-                <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem.
-                Vestibulum ornare eleifendit massa, nec tempor odio.
-                Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.
-                </span>
-            </div>
-            <button class="view-location"><a href="#">VIEW DETAILS</a></button>
-       </div>
-       <div class="location-item location-item1 float-left">
-            <div class="content-location">
-                <h3>NEW YORK</h3>
-                <h4>109 COLUMBUS CIRCLE, NEW YORK, NY</h4>
-                <span>
-                Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. 
-                Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum dolor, 
-                non sollicitudin massa mi eu nibh.
-                Nullam vitae aliquam dui, non sodales nisl.
-                </span>
-            </div>
-            <button class="view-location "><a href="#">VIEW DETAILS</a></button>
-       </div>
-       <div class="location-item  float-left">
-            <div class="content-location">
-                <h3>PARIS</h3>
-                <h4>2133 RUE SAINT-HONORÉ, 75001 PARIS</h4>
-                <span>
-                Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend.
-                Curabitur laoreet nisl eget rutruml auctor. 
-                Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.
-                </span>
-            </div>
-            <button class="view-location "><a href="#">VIEW DETAILS</a></button>
-       </div>
-    </div><!-- end locations -->
-    <div class="location-details clearfix">
-        <div class="map float-left">
-            <iframe
-                width="100%"
-                height="500"
-                src="http://maps.google.co.uk/maps?f=q&amp;
-                source=s_q&amp;hl=en&amp;geocode=&amp;
-                q=charing+cross+road+london&amp;output=embed">
-            </iframe> 
-        </div><!-- end map -->
-        <div class="details-map float-left">
-            <h3>LONDON</h3>
-            <h4>180-182 REGENT STREET, LONDON, W1B</h4>
-            <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem.
-            Vestibulum ornare eleifendit massa, nec tempor odio.
-            Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.
-            </span>
-            <div class="address-info">
-                <ul>
-                    <li><img class="icons" src="images/location/location-icon.png" alt="location"> 180-182 Regent Street, London, W1B 5BT</li>
-                    <li><img class="icons" src="images/location/phone-icon.png" alt="phone"> 0123-456-789</li>
-                    <li><img class="icons" src="images/location/web-icon.png" alt="pinterest">www.yourwebsite.com</li>
-                    <li><img class="icons" src="images/location/mail-icon.png" alt="mail">support@yourwebsite.com</li>
-                    <li><img class="icons" src="images/location/watch-icon.png" alt="watch">Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm</li>
-                </ul>
-            </div>
-            <div class="contact-us">
-                <ul>
-                    <li class="float-left"><a href="#"><img src="images/location/facebook-icon.png" alt="facebook"></a></li>
-                    <li class="float-left"><a href="#"><img src="images/location/twitter-icon.png" alt="twitter"></a></li>
-                    <li class="float-left"><a href="#"><img src="images/location/instagram-icon.png" alt="instagram"></a></li>
-                    <li class="float-left"><a href="#"><img src="images/location/pinterest-icon.png" alt="pinterest"></a></li>
-                </ul>
-            </div> 
-        </div>
-    </div><!-- end location-details -->
-</div><!-- end content middle in local-stores pages --> 
+        <a class="carousel-control-prev" href="#carousel-simple" role="button" data-slide="prev">
+            <img class="pre" src="images/product/pre-icon.png" alt="">
+        </a>
+        <a class="carousel-control-next" href="#carousel-simple" role="button" data-slide="next">
+            <img class="next" src="images/product/next-icon.png" alt="">
+        </a>
+    </div> 
+    <div class="review-content float-left">
+        <h3>Ave classic sweatshirt</h3>
+        <ul>
+            <li class="float-left">
+                <img class="float-left" src="images/product/star-choose.png" alt="">
+                <img class="float-left" src="images/product/star-choose.png" alt="">
+                <img class="float-left" src="images/product/star-choose.png" alt="">
+                <img class="float-left" src="images/product/star-choose.png" alt="">
+                <img class="float-left img-last" src="images/product/star.png" alt="">
+                <a href="#">3 Review(s)</a>
+            </li>
+            <li class="float-left"><a href="#">Add a review</a></li>
+            <li class="float-left">
+                <a href="#">Share:</a>
+                <a href="#"><img src="images/product/facebook.png" alt="" ></a>
+                <a href="#"><img src="images/product/twitter.png" alt="" ></a>
+                <a href="#"><img src="images/product/google-plus.png" alt=""></a>
+                <a href="#"><img src="images/product/pin.png" alt=""></a>
+                <a href="#"><img src="images/product/instagram.png" alt="" ></a>
+                <a href="#"><img src="images/product/mail.png" alt=""></a>
+            </li>
+        </ul>
+    </div> 
 
+</div>
 
 <!-- insert footer part -->
  <!-- include "includes/footer.php"?> -->
-<div class="footer clearfix">
-<div class="top-footer">
-    <div class="row width-1180 center">
-        <div class="infomation col-lg-2 item-footer">
-            <h3>INFORMATION</h3>
-            <ul>
-                <li>The brand</li>
-                <li>Local stores</li>
-                <li>Customer services</li>
-                <li>Privacy & cookies</li>
-                <li>Site map</li>
-            </ul>
+ <div class="footer clearfix">
+    <div class="top-footer">
+        <div class="row width-1180 center">
+            <div class="infomation col-lg-2 item-footer">
+                <h3>INFORMATION</h3>
+                <ul>
+                    <li>The brand</li>
+                    <li>Local stores</li>
+                    <li>Customer services</li>
+                    <li>Privacy & cookies</li>
+                    <li>Site map</li>
+                </ul>
+            </div>
+            <div class="whybuy col-lg-2 item-footer">
+                <h3>WHY BUY FROM US</h3>
+                <ul>
+                    <li>Shipping and returns</li>
+                    <li>Secure shopping</li>
+                    <li>Testimonials</li>
+                    <li>Award winning</li>
+                    <li>Ethical trading</li>
+                </ul>
+            </div>
+            <div class="account col-lg-3 item-footer">
+                <h3>YOUR ACCOUNT</h3>
+                <ul>
+                    <li>Sign in</li>
+                    <li>Register</li>
+                    <li>View cart</li>
+                    <li>View your lookbook</li>
+                    <li>Track an order</li>
+                    <li>Update information</li>
+                </ul>
+            </div>
+            <div class="lockblock col-lg-2 item-footer">
+                <h3>LOOKBOOK</h3>
+                <ul>
+                    <li>Latest posts</li>
+                    <li>Men’s lookbook</li>
+                    <li>Women’s lookbook</li>
+                    <li>Lookbooks RSS feed</li>
+                    <li>View your lookbook</li>
+                    <li>Delete your lookbook</li>
+                </ul>
+            </div>
+            <div class="contact col-lg-3 item-footer">
+                <h3>CONTACT DETAILS</h3>
+                <ul>
+                    <li>Head Office: Avenue Fashion,<br> 180-182 Regent Street, London.</li>
+                    <li>Telephone: 0123-456-789</li>
+                    <li>Email: support@yourwebsite.com</li>
+                </ul>
+            </div>      
         </div>
-        <div class="whybuy col-lg-2 item-footer">
-            <h3>WHY BUY FROM US</h3>
-            <ul>
-                <li>Shipping and returns</li>
-                <li>Secure shopping</li>
-                <li>Testimonials</li>
-                <li>Award winning</li>
-                <li>Ethical trading</li>
-            </ul>
+        <div class="row banners width-1180 center">
+            <div class="banner-details col-lg-6  banner-details-1">
+                    <h3>AWARD WINNER</h3>
+                    <p>FASHION AWARDS 2016</p>
+            </div>
+            <div class="banner-details col-lg-6  banner-details-2 float-left">
+                    <img src="images/home/social-icon-footer.png" alt="social-footer">
+            </div>
         </div>
-        <div class="account col-lg-3 item-footer">
-            <h3>YOUR ACCOUNT</h3>
-            <ul>
-                <li>Sign in</li>
-                <li>Register</li>
-                <li>View cart</li>
-                <li>View your lookbook</li>
-                <li>Track an order</li>
-                <li>Update information</li>
-            </ul>
+    </div><!--  end top-footer -->
+    <div class="copyright">
+        <div class="row width-1180 center align-items-center">
+            <div class="col-lg-3"><p>© 2016 Avenue Fashion™</p></div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4"><p>Design by RobbyDesigns.com</p></div>
+            <div class="col-lg-3"><p>Dev by Loremipsum.com</p></div> 
         </div>
-        <div class="lockblock col-lg-2 item-footer">
-            <h3>LOOKBOOK</h3>
-            <ul>
-                <li>Latest posts</li>
-                <li>Men’s lookbook</li>
-                <li>Women’s lookbook</li>
-                <li>Lookbooks RSS feed</li>
-                <li>View your lookbook</li>
-                <li>Delete your lookbook</li>
-            </ul>
-        </div>
-        <div class="contact col-lg-3 item-footer">
-            <h3>CONTACT DETAILS</h3>
-            <ul>
-                <li>Head Office: Avenue Fashion,<br> 180-182 Regent Street, London.</li>
-                <li>Telephone: 0123-456-789</li>
-                <li>Email: support@yourwebsite.com</li>
-            </ul>
-        </div>      
-    </div>
-    <div class="row banners width-1180 center">
-        <div class="banner-details col-lg-6  banner-details-1">
-                <h3>AWARD WINNER</h3>
-                <p>FASHION AWARDS 2016</p>
-        </div>
-        <div class="banner-details col-lg-6  banner-details-2 float-left">
-                <img src="images/home/social-icon-footer.png" alt="social-footer">
-        </div>
-    </div>
-</div><!--  end top-footer -->
-<div class="copyright">
-    <div class="row width-1180 center align-items-center">
-        <div class="col-lg-3"><p>© 2016 Avenue Fashion™</p></div>
-        <div class="col-lg-2"></div>
-        <div class="col-lg-4"><p>Design by RobbyDesigns.com</p></div>
-        <div class="col-lg-3"><p>Dev by Loremipsum.com</p></div> 
-    </div>
-</div><!--  end copyright -->
-</div><!--  end footer -->
-
-</div><!--  end container-fluid -->
-<!-- Jquery bootstrap template depend on it -->
-<script src="style/js/jquery-3.2.1.min.js"></script>
-<script src="style/js/bootstrap.min.js"></script>
-<script src="style/js/script.js"></script>
-<script src="style/js/map.js"></script>
-</body>
+    </div><!--  end copyright -->
+    </div><!--  end footer -->
+    
+    </div><!--  end container-fluid -->
+    <!-- Jquery bootstrap template depend on it -->
+    <script src="style/js/jquery-3.2.1.min.js"></script>
+    <script src="style/js/bootstrap.min.js"></script>
+    <script src="style/js/script.js"></script>
+    <script src="style/js/map.js"></script>
+    </body>
 </html>
