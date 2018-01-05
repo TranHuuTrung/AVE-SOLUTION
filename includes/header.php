@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style/css/styles-local-stores.css">
     <link rel="stylesheet" href="style/css/styles-lookbook.css">
     <link rel="stylesheet" href="style/css/styles-product.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body onLoad="initialize()">
      <div class="container-fluid">
