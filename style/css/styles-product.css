@@ -1,18 +1,21 @@
 /* styles for prduct pages */
+.width-950{
+    width: 1200px;
+}
 .brand-product{
     left: 206px;
 }
 .brand-product h4 span{
     color: #00c8c8;
 }
-.slider-product{
-    top: 0px;
-    width: 350px;
+.carousel-inner-product{
+    top: 75px;
     position: relative;
+    margin-bottom: 40px;
 }
 .pre{
     position: absolute;
-    top: 190px;
+    top: 345px;
     left: 10px;
 }
 .pre:hover{
@@ -22,7 +25,7 @@
 }
 .next{
     position: absolute;
-    top: 190px;
+    top: 345px;
     right: 10px;
 }
 .next:hover{
@@ -32,6 +35,7 @@
 }
 .review-content{
     margin-left: 20px;
+    width: 610px;
 }
 .review-content h3{
     text-transform: uppercase;
@@ -56,4 +60,106 @@
 
 .review-content .img-last{
     margin-right: 15px;
+}
+.review-content p{
+    margin: 65px 0px 35px 0px;
+    font-size: 28px;
+    color: #9a9a9a;
+    letter-spacing: 3px;
+}
+.review-content sup{
+    font-size: 20px;
+}
+.review-content strike{
+    margin-right: 15px;
+}
+.review-detail h4 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #575153;
+    display: inline;
+    margin-right: 10px;
+}
+.review-detail li{
+    color: #b7b7b7;
+    font-size: 15px;
+}
+.review-detail span{
+    color: #00c8c8;
+}
+.use-review{
+    font-size: 15px;
+    color: #727272;
+    margin-bottom: 15px;
+}
+.list-review li{
+    padding-bottom: 5px;
+    color: #727272;
+}
+.menu-nav{
+    background: #f8f8f8;
+}
+.menu-nav li{
+    margin-right: 20px;
+    padding: 10px;
+    color: #575153;
+}
+.menu-nav li:hover{
+    background: #333333;
+    color: #ffffff;
+}
+.view-content-review{
+    margin-bottom: 100px;
+}
+.view-content-review h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #727272;
+}
+.view-content-review p{
+    color: #8e8c8c;
+}
+
+.button-product{
+    font-size: 16px;
+    height: 50px;
+ 
+    border-radius: 0px;
+    margin-right: 10px; 
+    position: relative;
+}
+.button-product a{
+    border: none;
+    letter-spacing: 2px;
+}
+.button-product:hover a{
+    color: #ffffff;
+    font-weight: bold;
+}
+.button-product:hover{
+    background: #333333;
+    border: 2px solid #737373;
+}
+.button-product img{
+    background: #333333;
+}
+.buttton1{
+    top: 170px;
+    right: 215px;
+    width: 225px;
+    background: #00c8c8;
+}
+.buttton2{
+    top: 120px;
+    right: -30px;
+    width: 280px;
+}
+.buttton3{
+    position: relative;
+    top: 155px;
+    left: -5px;
+}
+.buttton3 a{
+    border: none;
+    letter-spacing: 2px;
 }
