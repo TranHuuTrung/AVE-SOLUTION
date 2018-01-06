@@ -56,6 +56,9 @@ h2,h3{
     display: block;
     height: 45px;
 }
+.topbar .a-last img {
+    margin-right: 10px;
+}
 .topbar a:hover{
     background: #00c8c8;
     text-decoration: none;
@@ -66,13 +69,19 @@ h2,h3{
 }
 /* style for above topbar , where contains logo, nav-menu, search */
 .nav>li>a{
-    padding: 0px 15px;
+    padding: 0px 15px 0px 15px;
     font-weight: bold;
+}
+.nav>li>a:hover{
+    background: none;
 }
 .nav a{
     color: #222222;
 }
 .nav a:hover{
+    color: #00c8c8;
+}
+.nav a:hover img{
     color: #00c8c8;
 }
 .above-top-bar{
@@ -102,7 +111,6 @@ h2,h3{
 .dropdown-menu{
     width: 365px;
     height: 430px;
-    background: #f8f8f8;
 }
 .box-item{
     width: 180px;
@@ -185,7 +193,7 @@ h2,h3{
 }
 .btn a{
     color: #454647;
-    font-size: 16 px;
+    letter-spacing: 3px;
 }
 
 .btn:hover a{
@@ -256,4 +264,12 @@ h2,h3{
 }
 .copyright p{
     margin: 10px 0px;
+}
+.copyright .col-lg-3{
+    padding: 0px;
+    text-align: right;
+}
+.copyright .col-lg-6{
+    padding: 0px;
+    text-align: left;
 }

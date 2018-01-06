@@ -1,7 +1,6 @@
 /* style for home pages */
 
 .popular-nav{
-    /* padding: 25px 0px; */
     border-top: 2px solid #eeeeee;
 }
 .popular-nav li{
@@ -11,12 +10,14 @@
 .popular-nav li:first-of-type a{
     padding: 0px 15px 0px 0px;
 }
-.popular-nav a{
-    font-size: 13px;
+.popular-nav li a{
+    font-weight: normal;
+    font-size: 16px;
     color: #727272;
 }
-.popular-nav a:hover{
+.popular-nav li a:hover{
     color: #00c8c8;
+    background: none;
 }
 @media (min-width: 2050px){
     .popular-nav{
@@ -24,7 +25,6 @@
     }
 
 }
-
 /* style for items part */
 .two-item-left img{
     width: 284px;
@@ -134,7 +134,7 @@ h4{
     background: #00c8c8;
 }
  /* styles for lookbook */
- .lookbook{
+.lookbook{
     height: 460px;
 }
 .item-look-book{
@@ -162,12 +162,17 @@ h4{
     right: 40px;
     text-align: right;
 }
-.lookbook-detail h2{
-    font-weight: bold;
+.lookbook-detail span {
+    font-size: 45px;
+    letter-spacing: 3px;
 }
-.lookbook-detail h2, h3{
-    font-size: 36px;
-    margin-bottom: 18px;
+.lookbook-detail h2{
+    letter-spacing: 3px;
+}
+.lookbook-detail h2{
+    font-size: 50px;
+    margin-bottom: 3px;
+    letter-spacing: 3px;
 }
 .lookbook-detail p{
     margin-top: 10px;

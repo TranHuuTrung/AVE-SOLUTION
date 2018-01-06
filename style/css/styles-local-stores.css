@@ -18,7 +18,7 @@
 
 .view-location{
     display: block;
-    width: 135px;
+    width: 160px;
     height: 40px;
     background: #f8f8f8;
     border: 2px solid #737373;
@@ -26,7 +26,7 @@
 }
 .view-location a{
     color: #454647;
-    font-size: 16 px;
+    letter-spacing: 3px;
 }
 
 .view-location:hover a{
