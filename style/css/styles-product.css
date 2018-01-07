@@ -9,6 +9,8 @@
     color: #00c8c8;
 }
 .carousel-inner-product{
+    width: 565px;
+    height: 700px;
     top: 75px;
     position: relative;
     margin-bottom: 40px;
@@ -34,8 +36,8 @@
     padding: 5px 10px;
 }
 .review-content{
-    margin-left: 20px;
-    width: 610px;
+    margin-left: 35px;
+    width: 600px;
 }
 .review-content h3{
     text-transform: uppercase;
@@ -137,7 +139,7 @@
     color: #ffffff;
     margin-right: 30px;
 }
-.button1 a,.button2:hover a{
+.button1 a,.button1:hover a,.button2:hover a{
     color: #ffffff;
 }
 .button1:hover{
@@ -155,7 +157,7 @@
 }
 .button3{
     position: relative;
-    top: 90px;
+    top: 85px;
     left: -5px;
 }
 .button3 a{
