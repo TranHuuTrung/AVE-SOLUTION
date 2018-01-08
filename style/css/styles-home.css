@@ -8,16 +8,12 @@
     padding: 30px 0px;
 }
 .popular-nav li:first-of-type a{
-    padding: 0px 15px 0px 0px;
+    padding-left: 0px;
 }
 .popular-nav li a{
     font-weight: normal;
     font-size: 16px;
     color: #727272;
-}
-.popular-nav li a:hover{
-    color: #00c8c8;
-    background: none;
 }
 @media (min-width: 2050px){
     .popular-nav{
@@ -95,6 +91,9 @@ sup{
 .item5:hover .details-link{
     display: block;
 }
+.item5:hover .item5{
+    border: 2px solid red;
+}
 .item5:hover .info{
     display: block;
 }
@@ -108,9 +107,14 @@ sup{
     z-index: 220;
     border: 1px solid #f8f8f8;
 }
+.info sup {
+    font-size: 8px;
+    margin-left: 3px;
+}
 .info h4{
     font-size: 11px;
-    font-weight: bold;
+    /* font-weight: bold; */
+    color: #727272;
 }
 h4{
     padding-top: 19px;
@@ -118,6 +122,7 @@ h4{
 }
 .info p{
     font-size: 12px;
+    color: #8e8c8c;
 }
 .buttons img{
     width: 32px;

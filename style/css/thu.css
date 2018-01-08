@@ -1,0 +1,17 @@
+.dropdown-item {
+    width: 365px;
+    margin-top: 5px;
+    border-right: 2px solid #ececec;
+    border-left: 2px solid #ececec;
+    border-bottom: 2px solid #ececec;
+    border-top: 1px solid #f8f8f8;
+    padding-bottom: 25px;
+    background: #f8f8f8;
+    display: none;
+    position: absolute; 
+    color: #575153;
+}
+.above-top-bar .nav li:hover .dropdown-item {
+    display: block;
+    /* position: absolute;     */
+}

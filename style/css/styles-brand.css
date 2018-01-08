@@ -2,7 +2,7 @@
 .photo-main{
     position: relative;
     z-index: 99;
-    margin-top: 90px;
+    padding-bottom: 50px;
 }
 .text-brand{
     position: absolute;
